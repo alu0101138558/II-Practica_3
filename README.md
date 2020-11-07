@@ -28,3 +28,14 @@ Por último, desde el **SceneController** he establecido que si se detecta la co
 
 ![eje2.2.gif](Images/eje2.2.gif)
 
+## 3. En la escena habrá ubicados un tipo de objetos que al ser recolectados por el jugador harán que ciertos obstáculos se desplacen desbloqueando algún espacio.
+
+Lo primero que hice fue crear un objeto moneda que fuese de tipo *trigger* y además, le añadí una pequeña animación de rotación.
+
+Luego en el objeto **jugador** establecí un atributo que fuese la cantidad de monedas que recopila, la función que desarrollé consiste en que cada vez que el **jugador** entrase en contacto con una moneda, esta sea eliminada y se aumente el contador establecido.
+
+Desarrollé tambien un objeto **puerta** con un atributo que establece el número necesario de monedas para ser desplazada, y para este poder realizar este moviento, declaré un método que se encarga del mismo.
+
+Por último, desde el **SceneController** se detecta cuando el jugador recolecta las monedas necesarias para el desplazamiento de una puerta concreta.
+
+![eje3.gif](Images/eje3.gif)
