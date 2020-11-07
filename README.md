@@ -36,6 +36,6 @@ Luego en el objeto **jugador** establecí un atributo que fuese la cantidad de m
 
 Desarrollé tambien un objeto **puerta** con un atributo que establece el número necesario de monedas para ser desplazada, y para este poder realizar este moviento, declaré un método que se encarga del mismo.
 
-Por último, desde el **SceneController** se detecta cuando el jugador recolecta las monedas necesarias para el desplazamiento de una puerta concreta.
+Por último, desde el **SceneController** se detecta cuando el jugador recolecta las monedas necesarias para el desplazamiento de una puerta concreta. 
 
 ![eje3.gif](Images/eje3.gif)
