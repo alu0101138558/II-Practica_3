@@ -36,6 +36,12 @@ Luego en el objeto **jugador** establecí un atributo que fuese la cantidad de m
 
 Desarrollé tambien un objeto **puerta** con un atributo que establece el número necesario de monedas para ser desplazada, y para este poder realizar este moviento, declaré un método que se encarga del mismo.
 
-Por último, desde el **SceneController** se detecta cuando el jugador recolecta las monedas necesarias para el desplazamiento de una puerta concreta. 
+Por último, desde el **SceneController** se detecta cuando el jugador recolecta las monedas necesarias para el desplazamiento de una puerta concreta.
 
 ![eje3.gif](Images/eje3.gif)
+
+## 4. Incorporar un elemento que sirva para encender o apagar un foco utilizando el teclado.
+
+Para resolver este apartado, he generado un objeto de tipo **Spot Light** y se lo he asignado a una de las propiedades del objeto **jugador**. Y que cuando se pulse el botón *F* el foco se active o se desactive (originalmente esta apagado).
+
+![eje4.gif](Images/eje4.gif)
